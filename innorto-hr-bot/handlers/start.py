@@ -4,15 +4,7 @@ from telegram.constants import ParseMode
 
 from database import get_user, set_mode
 
-WELCOME_TEXT = (
-    "👋 <b>Привет! Я HR-помощник INNORTO</b>\n\n"
-    "━━━━━━━━━━━━━━━━━━━━\n\n"
-    "Я помогу тебе:\n"
-    "• Познакомиться с компанией в первый день\n"
-    "• Найти нужного коллегу по любому вопросу\n"
-    "• Разобраться в правилах и регламентах\n\n"
-    "<b>Выбери, что тебе подходит:</b>"
-)
+WELCOME_TEXT = "привет"
 
 
 async def start_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
