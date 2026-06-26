@@ -1,0 +1,4 @@
+python-telegram-bot==20.7
+groq
+rank_bm25
+python-dotenv

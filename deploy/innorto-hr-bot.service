@@ -1,0 +1,13 @@
+[Unit]
+Description=Innorto HR Bot
+After=network.target
+
+[Service]
+WorkingDirectory=/root/forbots
+ExecStart=/usr/bin/python3 /root/forbots/bot.py
+EnvironmentFile=/root/forbots/.env
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
