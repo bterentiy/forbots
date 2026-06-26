@@ -3,7 +3,7 @@ import hashlib
 import subprocess
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
-GITHUB_SECRET = b"ЗАМЕНИ_НА_СВОЙ_СЕКРЕТ"
+GITHUB_SECRET = b"7f444a31461d7c6af1d09175b44f1f743411c0e5112a2fdfc6a207cfc667081a"
 BOT_SERVICE = "innorto-hr-bot"
 REPO_DIR = "/root/forbots"
 
